@@ -117,7 +117,11 @@ public class UserControl {
     }
 
     /**
+<<<<<<< HEAD
      * 获得该用户曾经的所有评论
+=======
+     * 获得该用户曾今的所有评论
+>>>>>>> 426a483a22fc857586e1945b9accc9322ede17b4
      */
     @PostMapping("/getUserComment")
     public JSONObject getUserComment(@RequestParam("rows") String rows,
@@ -137,7 +141,11 @@ public class UserControl {
     }
 
     /**
+<<<<<<< HEAD
      * 获得该用户曾经的所有留言
+=======
+     * 获得该用户曾今的所有留言
+>>>>>>> 426a483a22fc857586e1945b9accc9322ede17b4
      */
     @PostMapping("/getUserLeaveWord")
     public JSONObject getUserLeaveMessage(@RequestParam("rows") String rows,
