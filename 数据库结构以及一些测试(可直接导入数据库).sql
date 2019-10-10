@@ -222,8 +222,7 @@ INSERT INTO `leave_message_record` VALUES ('17', 'update', '0', '1', '1', '2018-
 INSERT INTO `leave_message_record` VALUES ('18', 'friendlylink', '0', '1', '1', '2018-09-19 13:54', '0', '需要添加友链的朋友可在www.zhyocean.cn/friendlylink下方留言（网站名称+网址），随后验证后会在本人博客中添加友链链接', '0');
 
 -- ----------------------------
--- Table structure for privateword
--- ----------------------------
+-- Table structure for privateword-- ----------------------------
 DROP TABLE IF EXISTS `privateword`;
 CREATE TABLE `privateword` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
