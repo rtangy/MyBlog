@@ -3,7 +3,7 @@
     var siteLastUpdateTime = '2019年05月23日13点';
 
     //网站开始时间
-    var siteBeginRunningTime = '2018-07-25 20:00:00';
+    var siteBeginRunningTime = '2019-10-10 12:57:00';
 
     // 广告上下滚动
     function getStyle(obj,name){
