@@ -297,13 +297,9 @@
 
     //点击扫描二维码时获取二维码图片
     $('.myCardBtn').click(function () {
-<<<<<<< HEAD
         $('.qq_code').attr("src","https://rtang-1253719032.cos.ap-guangzhou.myqcloud.com/Blog/img/qq_code.png");
         $('.weixin_code').attr("src","https://rtang-1253719032.cos.ap-guangzhou.myqcloud.com/Blog/img/weixin_code.png");
-=======
-        $('.qq_code').attr("src","https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/qq_code.png");
-        $('.weixin_code').attr("src","https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/weixin_code.png");
->>>>>>> 426a483a22fc857586e1945b9accc9322ede17b4
+
     });
 
     ajaxFirst(1);
